@@ -1,2 +1,2 @@
 # LMX8410L
-Library to work with LMX8410L RF mixer IC (Texas Instruments)
+C++ library to programm LMX8410L RF mixer IC (Texas Instruments).
