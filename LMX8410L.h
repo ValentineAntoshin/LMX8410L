@@ -70,7 +70,7 @@ class LMX8410_CORE
 	uint16_t REGS[128];
 	FIELDS STATES;
 	unsigned int REGS_TO_STATES();
-	unsigned int STATES_TO_REGS;
+	unsigned int STATES_TO_REGS();
 	unsigned int REG_TO_STATES(unsigned int REG_NUM);
 	unsigned int STATES_TO_REG(unsigned int REG_NUM);
 	unsigned int REG_UPDATE(unsigned int REG_NUM);
